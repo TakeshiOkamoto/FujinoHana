@@ -1,6 +1,6 @@
 # FujinoHana ( 藤の花 )
   
-A system that recording and manages voice that is flowing in the microphone or PC with a browser.    
+A system that recording and manages voice that is flowing in microphone or PC with a browser.    
 ( ブラウザでマイクやパソコン内で流れている音声を録音して管理するシステム )    
   
 DEMO ( Japanese )   
