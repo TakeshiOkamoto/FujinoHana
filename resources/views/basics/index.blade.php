@@ -88,18 +88,18 @@
   <div class="form-group">
     <label for="parent_kbps">{{ trans('validation.attributes.kbps')}}</label>
     <select id="parent_kbps" class="form-control" name="kbps">      
-      <option value= "1" {{ ($val ==  "1") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_1')}}</option>
-      <option value= "2" {{ ($val ==  "2") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_2')}}</option>
-      <option value= "3" {{ ($val ==  "3") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_3')}}</option>
-      <option value= "4" {{ ($val ==  "4") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_4')}}</option>
-      <option value= "5" {{ ($val ==  "5") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_5')}}</option>
-      <option value= "6" {{ ($val ==  "6") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_6')}}</option>
-      <option value= "7" {{ ($val ==  "7") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_7')}}</option>
-      <option value= "8" {{ ($val ==  "8") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_8')}}</option>
-      <option value= "9" {{ ($val ==  "9") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_9')}}</option>
-      <option value="10" {{ ($val == "10") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_10')}}</option>
-      <option value="11" {{ ($val == "11") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_11')}}</option>
-      <option value="12" {{ ($val == "12") ? 'selected="selected"' : '' }}>{{ trans('validation.attributes.mp3_12')}}</option>
+      <option value= "1" {!! ($val ==  "1") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_1')}}</option>
+      <option value= "2" {!! ($val ==  "2") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_2')}}</option>
+      <option value= "3" {!! ($val ==  "3") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_3')}}</option>
+      <option value= "4" {!! ($val ==  "4") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_4')}}</option>
+      <option value= "5" {!! ($val ==  "5") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_5')}}</option>
+      <option value= "6" {!! ($val ==  "6") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_6')}}</option>
+      <option value= "7" {!! ($val ==  "7") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_7')}}</option>
+      <option value= "8" {!! ($val ==  "8") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_8')}}</option>
+      <option value= "9" {!! ($val ==  "9") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_9')}}</option>
+      <option value="10" {!! ($val == "10") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_10')}}</option>
+      <option value="11" {!! ($val == "11") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_11')}}</option>
+      <option value="12" {!! ($val == "12") ? 'selected="selected"' : '' !!}>{{ trans('validation.attributes.mp3_12')}}</option>
     </select>
   </div>   
   @if (app()->getLocale() == "ja")
