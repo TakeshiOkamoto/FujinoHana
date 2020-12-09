@@ -25,7 +25,7 @@ class ChildFilesController extends Controller
                 $items = $items->where('name', 'like', "%$keyword%");
             }
         }
-        $items = $items->orderby('created_at','DESC')->paginate(25); 
+        $items = $items->orderBy('created_at','DESC')->paginate(25); 
         
         // HTML準備
         foreach($items as $item){
