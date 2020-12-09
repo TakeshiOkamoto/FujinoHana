@@ -24,7 +24,7 @@ class ChildsController extends Controller
                 $items = $items->where('name', 'like', "%$keyword%");
             }
         }
-        $items = $items->orderby('name','ASC')->paginate(25); 
+        $items = $items->orderBy('name','ASC')->paginate(25); 
         
         return view('childs.index',['items' => $items, 'name'=> $name]);
     }
