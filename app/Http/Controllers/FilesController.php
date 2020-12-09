@@ -30,7 +30,7 @@ class FilesController extends Controller
                 $items = $items->where('title', 'like', "%$keyword%");
             }
         }
-        $items = $items->orderby('created_at','DESC')->paginate(25); 
+        $items = $items->orderBy('created_at','DESC')->paginate(25); 
         
         if (session()->has('parentID')){
             $h1 = trans('validation.attributes.form2');  
