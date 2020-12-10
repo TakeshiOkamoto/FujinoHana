@@ -156,6 +156,16 @@ class RouteServiceProvider extends ServiceProvider
     
 }
 ```
+If you get the following error. ( 次のエラーが発生した場合 )
+```rb
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+```
+.env  
+Please change as follows.  ( 以下のように変更して下さい。 )
+```rb
+DB_HOST=127.0.0.1
+#DB_HOST=mysql
+```
 
 ### RUN ( 実行する )
 ```rb
