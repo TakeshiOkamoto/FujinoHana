@@ -118,15 +118,11 @@ function record(){
     constraints = {
                     "video": false,
                     "audio": {                           
-                              "mandatory": {
-                                "googEchoCancellation" : false,
-                                "googAutoGainControl"  : false,
-                                "googNoiseSuppression" : false,
-                                "googHighpassFilter"   : false   
-                               },
-                              "optional": []
+                              "echoCancellation"     : false,
+                              "autoGainControl"      : false,        
+                              "noiseSuppression"     : false
                              }
-                  };
+                  };  
   // FireFox/Edge(旧) 
   }else{
     constraints = {
